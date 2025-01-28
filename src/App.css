@@ -1,0 +1,104 @@
+   
+   .todo-topic {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .Components {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .inputAndButton{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .select-status {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-Btn,
+  .cancel-edit-btn,
+  .edit-btn,
+  .delete-btn{
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-Btn {
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+  }
+  
+  .cancel-edit-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .add-Btn:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-edit-btn:hover {
+    background-color: #c82333;
+  }
+  .edit-btn{
+    background-color: #5fbe74;
+    color: #fff;
+  }
+  .edit-btn:hover{
+    background-color: #218838;
+
+  }
+  .delete-btn{
+    background-color: #c82333;
+    color: #fff;
+  }
+  .delete-btn:hover{
+    background-color: #47030a;
+  }
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list-tem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, serif;
+
+  }
+  .todo-list-tem p {
+    flex: 0.9;
+    margin: 0;
+    font-size: 16px;
+  }
+  
